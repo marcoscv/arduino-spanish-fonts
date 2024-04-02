@@ -6,6 +6,8 @@
 Fuentes con Ñ, ñ, Á, á, É, é, Í, í, Ó, ó, Ú, ú para tu arduino. fáciles de usar con TFT eSPI y Adafruit GFX Library.
 Están en el directorio "Fuentes".
 
+Especialmente optimizadas *Roboto* y *FaceMono*.
+
 ## Ejemplo para TFT_eSPI:
 
 Copiar fuentes .h a directorio:
@@ -15,6 +17,8 @@ Y añadir referencias a estas fuentes en el archivo `gfxfont.h`. Ejemplo:
 ```
   #include <Fonts/GFXFF/FreeMono12.h>
   #include <Fonts/GFXFF/FreeMono14.h>
+  #include <Fonts/GFXFF/Roboto12.h>
+  #include <Fonts/GFXFF/Roboto14.h>
 ```
 No olvides tener `#define LOAD_GFXFF` descomentado en tu TFT eSPI User_Setup.h
 
