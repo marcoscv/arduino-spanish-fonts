@@ -13,15 +13,8 @@ Copiar fuentes .h a directorio:
 Y añadir referencias a estas fuentes en el archivo `gfxfont.h`. Ejemplo:
 
 ```
-  #include <Fonts/GFXFF/Antonio12.h>
-  #include <Fonts/GFXFF/Antonio14.h>
-  #include <Fonts/GFXFF/Roboto12.h>
-  #include <Fonts/GFXFF/Teko12.h>
-  #include <Fonts/GFXFF/Teko14.h>
-  #include <Fonts/GFXFF/Teko16.h>
-  #include <Fonts/GFXFF/Quantico12.h>
-  #include <Fonts/GFXFF/Quantico14.h>
-  #include <Fonts/GFXFF/Quantico16.h>
+  #include <Fonts/GFXFF/FreeMono12.h>
+  #include <Fonts/GFXFF/FreeMono14.h>
 ```
 No olvides tener `#define LOAD_GFXFF` descomentado en tu TFT eSPI User_Setup.h
 
